@@ -13,7 +13,7 @@ class InputReader:
     
     def read_text(self) -> str:
         with open(self.file_path, 'r') as file:
-            return file.read().strip()
+            return file.read()
     
     def read_int(self) -> list[int]:
         return [int(line) for line in self.read_lines()] 

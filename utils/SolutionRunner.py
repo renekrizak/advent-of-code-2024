@@ -11,10 +11,10 @@ class SolutionRunner:
     def run(self, part: int):
         if part == 1:
             result = self.part1()
-            print(f'Day {self.day} - Part 1: {result}')
+            print(f'Day {self.day} - Part 1 ----> {result}')
         elif part == 2:
             result = self.part2()
-            print(f'Day {self.day} - Part 1: {result}')
+            print(f'Day {self.day} - Part 2 ----> {result}')
         else:
             raise ValueError(f'Invalid part: {part}, must be 1 or 2')
         
